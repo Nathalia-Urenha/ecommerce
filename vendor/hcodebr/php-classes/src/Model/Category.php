@@ -58,7 +58,7 @@ class Category extends Model {
 		Category::updateFile();
 
 	}
-/*
+
 	public static function updateFile()
 	{
 
@@ -73,7 +73,7 @@ class Category extends Model {
 		file_put_contents($_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . "views" . DIRECTORY_SEPARATOR . "categories-menu.html", implode('', $html));
 
 	}
-
+/*
 	public function getProducts($related = true)
 	{
 
